@@ -5,9 +5,9 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <nav className="App">
+      <div className="App">
         <Navbar />
-      </nav>
+      </div>
     );
   }
 }
