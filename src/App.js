@@ -8,6 +8,7 @@ import Navbar from './components/layout/Navbar';
 import Users from './components/users/Users';
 import Search from './components/users/Search';
 import Alert from './components/layout/Alert';
+import About from './components/pages/About';
 import axios from 'axios';
 import './App.css';
 import { Fragment } from 'react/cjs/react.production.min';
@@ -72,6 +73,7 @@ class App extends Component {
                   </Fragment>
                 )}
               />
+              <Route exact path="/about" component={About} />
             </Switch>
           </div>
         </div>
