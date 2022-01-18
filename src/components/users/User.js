@@ -22,7 +22,7 @@ export class User extends Component {
     const {
       name,
       company,
-      avartar_url,
+      //avatar_url,
       location,
       bio,
       blog,
