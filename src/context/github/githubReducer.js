@@ -1,4 +1,3 @@
-import Users from '../../components/users/Users';
 import {
   SEARCH_USERS,
   SET_LOADING,
@@ -7,6 +6,7 @@ import {
   GET_REPOS,
 } from '../types';
 
+// eslint-disable-next-line
 export default (state, action) => {
   switch (action.type) {
     case SEARCH_USERS:
